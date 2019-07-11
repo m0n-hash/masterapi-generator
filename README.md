@@ -7,7 +7,7 @@ Using ReactJs & Electron
 
 ## How to debug
 
-Set **public/main.js** 
+**public/main.js** 
 ```
 mainWindow.loadURL('http://localhost:3000/');
 ```
@@ -22,7 +22,7 @@ $ npm run electron-start (run electron)
 
 ## How to package
 
-Set **public/main.js** 
+**public/main.js** 
 ```
 mainWindow.loadURL(`file://${path.join(__dirname, '../build/index.html')}`);
 ```

@@ -13,11 +13,11 @@ mainWindow.loadURL('http://localhost:3000/');
 ```
 
 ```
-**$** npm run start (run reactJs App)
+$ npm run start (run reactJs App)
 ```
 
 ```
-**$** npm run electron-start (run electron)
+$ npm run electron-start (run electron)
 ```
 
 ## How to package
@@ -28,7 +28,7 @@ mainWindow.loadURL(`file://${path.join(__dirname, '../build/index.html')}`);
 ```
 
 ```
-**$** npm run electron-pack (create installer)
+$ npm run electron-pack (create installer)
 ```
 
 ## Credits

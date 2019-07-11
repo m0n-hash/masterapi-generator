@@ -1,8 +1,8 @@
 
 # Master Api Generator
 
-* [Generate Sundew Myanmar API](https://github.com/SundewMyanmar/master-api)
-* Using ReactJs & Electron
+[Generate Sundew Myanmar API](https://github.com/SundewMyanmar/master-api)
+Using ReactJs & Electron
 
 ## How to debug
 
@@ -11,8 +11,8 @@ Set **public/main.js**
 mainWindow.loadURL('http://localhost:3000/');
 ```
 
-1. **~#** npm run start (run reactJs App)
-2. **~#** npm run electron-start (run electron)
+**~#** npm run start (run reactJs App)
+**~#** npm run electron-start (run electron)
 
 ## How to package
 
@@ -20,7 +20,7 @@ Set **public/main.js**
 ```
 mainWindow.loadURL(`file://${path.join(__dirname, '../build/index.html')}`);
 ```
-* **~#** npm run electron-pack (create installer)
+**~#** npm run electron-pack (create installer)
 
 ## Credits
 

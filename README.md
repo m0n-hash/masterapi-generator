@@ -1,7 +1,7 @@
 
 # Master Api Generator
-## [Generate Sundew Myanmar API](https://github.com/SundewMyanmar/master-api)
-Using ReactJs & Electron
+* [Generate Sundew Myanmar API](https://github.com/SundewMyanmar/master-api)
+* Using ReactJs & Electron
 
 ## Credits
 

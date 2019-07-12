@@ -1,0 +1,62 @@
+FAQ
+===========================================================
+DO - Drag Object
+TO - Type Object
+SO - Selection Object
+^   - To direction
+<> - Vice versa
+
+JSON Data Configuration
+.sdm <main_package>
+.<package_name>
+         ^
+.<controller_name>
+
+Entity Create Pane
+===========================================================
+Choose Package (default master package)
+
+Entity Object (DO)
+	func [rename]
+	func [edit code]
+
+[Byte,Character,Short,Integer,Long,Float,Double,Boolean,String,Entity Object(FK DO)] (DO)
+	  	          ^
+	Array, ArrayList, HashMap, HashSet,
+	func [rename]
+	func [edit type]
+
+Controller Create Pane
+===========================================================
+Choose package
+Choose controller
+
+SELECT / INSERT / UPDATE / DELETE (DO) 
+      GET / POST / PUT / DELETE
+	func [rename]
+	func [edit code]
+	^
+Entity / Entity Fields  (DO)
+	func [remove]
+	func [replace]
+	^
+[JOIN, DISTINCT JOIN, COUNT] (SELECT ONLY) (DO)
+	func [remove]
+	func [replace]
+	^
+[WHERE, ORDER BY (SELECT ONLY), LIMIT (SELECT ONLY)] (DO)
+	func [remove]
+	func [replace]
+	<>
+Entity Fields (DO)
+	func [remove]
+	func [replace]
+	<>
+[value (TO), user input (DO),Entity Fields (SO)] 
+	func [edit]
+	func [remove]
+	func [replace]
+
+
+
+

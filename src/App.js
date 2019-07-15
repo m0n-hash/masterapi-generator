@@ -14,6 +14,9 @@ import MasterTemplate from './component/MasterTemplate';
 import ApiCreatePage from './page/api-create';
 import ApiGeneratorPage from './page/api-generator';
 
+import { DndProvider } from 'react-dnd'
+import HTML5Backend from 'react-dnd-html5-backend'
+
 class App extends Component{
   constructor(props){
     super(props);
@@ -46,7 +49,9 @@ class App extends Component{
             <Route path="/create-api" component={ApiCreatePage}/>
 
             <MasterTemplate>
-              <this.PrivateRoute exact path="/" component={ApiGeneratorPage}/>
+              <DndProvider backend={HTML5Backend}>
+                <this.PrivateRoute exact path="/" replace component={ApiGeneratorPage}/>
+              </DndProvider>
             </MasterTemplate>
           </Switch>
         </Router>

@@ -15,7 +15,7 @@ function createWindow(){
     
     //To Debug
     mainWindow.loadURL('http://localhost:3000/');
-    
+    mainWindow.setMenu(null);
     mainWindow.webContents.openDevTools();
 }
 
